@@ -221,9 +221,12 @@ a:hover {
 
 #skills li {
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #007bff;
   display: flex;
   align-items: center;
+  color: #4a2691;
+  background-color: #ddd;
+  border-radius: 1em;
 }
 
 #skills li img {
@@ -242,10 +245,11 @@ a:hover {
   align-items: center;
   font-size: 1.2rem;
   font-weight: bold;
+  flex-wrap:wrap ;
+  justify-content: center;
 }
-.awal{
+#contact h4{
   font-size: 1.5rem;
-  color: white;
 }
 footer{
   font-family: 'Albert Sans',sans-serif;
@@ -254,4 +258,5 @@ footer{
   font-weight: bold;
   margin: 0 auto;
   max-width: fit-content;
+  text-align: center;
 }
