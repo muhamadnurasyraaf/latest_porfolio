@@ -20,10 +20,12 @@ body{
   #experience{
     width: 50%;
   }
+   .desc ul li{
+    max-width: 20%;
+  }
   .detail{
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
     gap: 4em;
   }
   .brand{
@@ -165,6 +167,16 @@ a:hover {
  .detail{
   display: flex;
   flex-direction: column;
+  gap: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ }
+ .activity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
  }
 #intro{
   display:flex;
@@ -184,7 +196,6 @@ a:hover {
 }
 
 #experience .content h4{
-  
   font-size: 1.5rem;
 }
 .detail .company{
@@ -197,4 +208,50 @@ a:hover {
 .year{
   font-size: 1rem;
   font-weight: bold;
+}
+
+#skills h2, h4 {
+  color: #007bff;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+#skills li img {
+  margin-right: 10px;
+}
+#contact .content{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+ .first, .sec-row{
+  display: flex;
+ gap: 2em;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.awal{
+  font-size: 1.5rem;
+  color: white;
+}
+footer{
+  font-family: 'Albert Sans',sans-serif;
+  color: #AFAFC7;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: fit-content;
 }
