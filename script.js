@@ -19,11 +19,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Trigger initial check when the page loads
     changeSectionState();
-
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const menu = document.querySelector('.menu ul');
-
-    hamburgerMenu.addEventListener('click', function () {
-        menu.classList.toggle('show');
-    });
 });
