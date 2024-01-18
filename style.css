@@ -210,10 +210,15 @@ a:hover {
   font-weight: bold;
 }
 
-#skills h2, h4 {
+#skills h2 {
   color: #ff004f;
 }
-
+.mt-4{
+  color: #ff004f;
+}
+h4{
+  color: #297fb8;
+}
 #skills ul {
   list-style-type: none;
   padding: 0;
@@ -296,8 +301,24 @@ footer{
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s;
+  margin-top: 1em;
 }
 
 .btn:hover {
   background-color: #297fb8;
+}
+.btn-source{
+  background-color: #333;
+  padding: 0.7em 0.4em;
+  border-radius: 0.4em;
+  margin-bottom: 1.5em;
+}
+
+#projects .content{
+  display: flex;
+  flex-wrap: wrap;
+}
+#projects h4{
+  font-size: 2rem;
+  text-decoration: overline;
 }
